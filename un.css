@@ -1,0 +1,178 @@
+.navbar-inverse {
+    padding: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    border: 0;
+    border-bottom: 2px solid #000;
+    background: #000000;
+}
+body {
+    background: #323133;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    font-family: Roboto, 'Open Sans', Arial;
+    font-size: 13px;
+    overflow-y: scroll;
+}
+.announcement {
+    background: #444444;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 4px solid #000000;
+    transition: border-left 0.1s ease;
+}
+.announcement:hover {
+    border-left: 7px solid #000000;
+}
+.wrap {
+    margin: 0 auto;
+    padding: 30px;
+    background: #333232;
+}
+.trow1 {
+    background: #000000;
+    border-top: 3px solid #303030;
+    border-bottom: 3px solid #303030;
+    padding: 13px;
+}
+.trow2 {
+    background: #000000;
+    border-top: 3px solid #303030;
+    border-bottom: 3px solid #303030;
+    padding: 13px;
+}
+
+tr td.trow1:first-child, tr td.trow2:first-child {
+    border-left: 8px solid #000000;
+    border-right: 8px solid #000000;
+}
+tr td.trow1:last-child, tr td.trow2:last-child {
+    border-right: 8px solid #000000;
+}
+
+.sub-forum, .mod-forum {
+    font-size: 11px;
+    width: 48%;
+    margin-right: 1%!important;
+    display: inline-block;
+    background: #000000;
+    margin-top: 5px!important;
+    padding: 10px;
+    border: 1px solid #323f4e;
+}
+.thead {
+    background: #4a569d;
+    background: -moz-linear-gradient(left, #4a569d 1%, #dc2424 100%);
+    background: -webkit-linear-gradient(left, #4a569d 1%, #dc2424 100%);
+    background: linear-gradient(to right, #000000 1%, #000000 100%);
+    color: #ffffff;
+    padding: 12px;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+    cursor: pointer;
+    outline: 0!important;
+}
+.fa, .fas {
+    font-weight: 900;
+    color: #765496;
+}
+.navigation {
+    color: #eee;
+    background: transparent no-repeat center bottom;
+    background-image:url("https://share.g0d.org/i/3a7h0y.png");
+    background-size: auto 133%;
+    background-position-y: -50px;
+    min-height: 200px;
+    padding: 50px 0;
+    text-align: center;
+    border-bottom: 2px solid #000;
+}
+
+.tabselected1 {
+    text-decoration: none;
+    z-index: 1;
+    font-weight: 500;
+    background-color: #000000 !important;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.06);
+    padding: 8px 10px;
+    color: #fff !important;
+}
+
+.tabselected2 {
+    text-decoration: none;
+    z-index: 1;
+    font-weight: 500;
+    background-color: #444444 !important;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.06);
+    padding: 8px 10px;
+    color: #fff !important;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    background-color: #5b5b5b;
+}
+                                        
+.reputation_positive {
+    color: #0dc42f;
+}
+.user-profile {
+    background: #000000;
+    border: 1px solid #323f4e;
+    padding: 20px 15px 15px;
+    text-align: center;
+}
+
+a.button:link, a.button:visited, a.button:active {
+    background: #000000;
+    color: #fff;
+    display: inline-block;
+    padding: 8px 15px;
+    margin: 2px 2px 6px 2px;
+    font-size: 13px;
+    font-weight: 500;
+}
+button, input.button {
+    padding: 4px 8px;
+    cursor: pointer;
+    font-family: Tahoma, Verdana, Arial, Sans-Serif;
+    font-size: 13px;
+    background: #000000;
+    transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+    border: 1px solid #765496;
+    color: #fff;
+    outline: 0;
+}
+.tabs {
+    background: #000000;
+    border-top: 3px solid #1c262f;
+    border-bottom: 3px solid #1c262f;
+}
+img[alt="Staff"] {
+	content: url("https://share.g0d.org/i/2dfpuf.png");
+}
+
+img[alt="Support"] {
+	content: url("https://share.g0d.org/i/faxqov.png");
+}
+
+img[alt="Trusted"] {
+	content: url("https://share.g0d.org/i/f97jqu.png");
+}
+.post_author {
+	text
+}
+img[alt="Admin"] {
+	content: url("https://share.g0d.org/i/7x86f5.png");
+}
